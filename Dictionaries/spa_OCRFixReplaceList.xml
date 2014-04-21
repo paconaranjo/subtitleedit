@@ -1,12 +1,14 @@
 <ReplaceList>
   <WholeWords>
-    <!-- Extrangerismos (experimental) -->
-    <Word from="pillo" to="(pillo)" />
-    <Word from="Pillo" to="(Pillo)" />
-    <Word from="follé" to="(folle)" />
-    <Word from="follé" to="(folle)" />
-    <Word from="folla" to="(folla)" />
-    <Word from="gilipollas" to="(gilipollas)" />
+    <!-- Extrangerismos (experimental) 
+	  <Word from="pillado" to="(pi-llado)" />
+    <Word from="pillo" to="(pi-llo)" />
+	  <Word from="pilló" to="(pi-llo)" />
+    <Word from="Pillo" to="(Pi-llo)" />
+    <Word from="follé" to="(fo-lle)" />
+    <Word from="follé" to="(fo-lle)" />
+    <Word from="folla" to="(fo-lla)" />
+    <Word from="gilipollas" to="(gili-pollas)" />
     <Word from="vídeo" to="video" />
     <Word from="vídeos" to="videos" />
     <Word from="cotilla" to="chismoso(a)" />
@@ -16,7 +18,7 @@
     <Word from="furgoneta" to="camioneta" />
     <Word from="furgo" to="troca" />
     <Word from="zumo" to="jugo" />
-    <Word from="Zumo" to="Jugo" />
+    <Word from="Zumo" to="Jugo" /> -->
     <!--  Abreviaturas simples -->
     <Word from="KBs" to="kB" />
     <Word from="dr" to="Dr." />
@@ -400,7 +402,7 @@
   <PartialWordsAlways />
   <PartialWords />
   <PartialLines>
-    <!-- Extrangerismos (experimental) -->
+    <!-- Extrangerismos (experimental) 
     <LinePart from=" a por " to=" por " />
     <LinePart from="A por " to="Por " />
     <LinePart from="Vale." to="(Bien)." />
@@ -417,7 +419,7 @@
     <LinePart from="Me cago en la leche" to="(Me lleva la chingada)" />
     <LinePart from="me cago en la leche" to="(me lleva la chingada)" />
     <LinePart from="mala leche" to="(mal genio)" />
-    <LinePart from="eres la leche" to="(eres fenomenal)" />
+    <LinePart from="eres la leche" to="(eres fenomenal)" /> -->
     <!--  Varios  -->
     <LinePart from="de gratis" to="gratis" />
     <LinePart from="si quiera" to="siquiera" />
@@ -436,25 +438,6 @@
     <LinePart from=" si!" to=" sí!" />
     <LinePart from=" mi!" to=" mí!" />
     <LinePart from=" el!" to=" él!" />
-    <LinePart from="¡Por que" to="¡Por qué" />
-    <LinePart from="¡Porque" to="¡Por qué" />
-    <LinePart from="¡Con que" to="¡Con qué" />
-    <LinePart from="¡Que " to="¡Qué " />
-    <LinePart from="¡Cuanto" to="¡Cuánto" />
-    <LinePart from="¡Cuanta" to="¡Cuánta" />
-    <LinePart from="¡Cuantos" to="¡Cuántos" />
-    <LinePart from="¡Cuan" to="¡Cuán" />
-    <LinePart from="¡Como " to="¡Cómo " />
-    <LinePart from="¡Se " to="¡Sé " />
-    <LinePart from="¡por que" to="¡por qué" />
-    <LinePart from="¡porque" to="¡por qué" />
-    <LinePart from="¡con que" to="¡con qué" />
-    <LinePart from="¡que " to="¡qué " />
-    <LinePart from="¡cuanto" to="¡cuánto" />
-    <LinePart from="¡cuanta" to="¡cuánta" />
-    <LinePart from="¡cuantos" to="¡cuántos" />
-    <LinePart from="¡cuan" to="¡cuán" />
-    <LinePart from="¡como " to="¡cómo " />
     <!-- Acentos al final de los signos de interrogación -->
     <LinePart from=" tu?" to=" tú?" />
     <LinePart from=" si?" to=" sí?" />
@@ -731,11 +714,11 @@
     <LinePart from="aún," to="aún," />
     <LinePart from="aun no" to="aún no" />
     <!-- dé -->
-    <LinePart from="de y" to="dé y" />
-    <LinePart from="nos de" to="nos dé" />
+    <LinePart from="de y " to="dé y " />
+    <LinePart from=" nos de " to=" nos dé " />
     <!-- tú -->
-    <LinePart from="tu ya" to="tú ya" />
-    <LinePart from="Tu ya" to="Tú ya" />
+    <LinePart from=" tu ya" to=" tú ya" />
+    <LinePart from="Tu ya " to="Tú ya " />
     <!-- casos específicos antes de la coma -->
     <LinePart from=" de, " to=" dé," />
     <LinePart from=" mi, " to=" mí," />
@@ -762,7 +745,7 @@
     <LinePart from="se cuantas" to="sé cuántas" />
     <LinePart from="se cuan" to="sé cuán" />
     <!-- si/sí -->
-    <LinePart from="el si" to="el sí" />
+    <LinePart from=" el si " to=" el sí " />
     <LinePart from="si mismo" to="sí mismo" />
     <LinePart from="si misma" to="sí misma" />
     <!-- Errores de "l" en vez de "i" en casos específicos -->
@@ -874,7 +857,7 @@
     <RegEx find="(\()\u0022" replaceWith="(«" />
     <!--  Numeración  -->
     <RegEx find="([0-9])\.([0-9])\b" replaceWith="$1,$2" />
-    <RegEx find="[^|\s]([0-9]),([0-9]{3})\b" replaceWith="$1.$2" />
+    <RegEx find="([^|\s])([0-9]),([0-9]{3})\b" replaceWith="$1$2.$3" />
     <!-- "1 :", "2 :"... "n :" a "n:" -->
     <RegEx find="(\d) ([:;])" replaceWith="$1$2" />
     <!--  Corregir las comas y puntos por ej. «, ,» por «,» & «,,,» o similar por «...» -->
