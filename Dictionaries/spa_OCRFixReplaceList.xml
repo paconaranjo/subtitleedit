@@ -1,9 +1,9 @@
 <ReplaceList>
   <WholeWords>
     <!-- Extrangerismos (experimental) 
-	  <Word from="pillado" to="(pi-llado)" />
+    <Word from="pillado" to="(pi-llado)" />
     <Word from="pillo" to="(pi-llo)" />
-	  <Word from="pilló" to="(pi-llo)" />
+    <Word from="pilló" to="(pi-llo)" />
     <Word from="Pillo" to="(Pi-llo)" />
     <Word from="follé" to="(fo-lle)" />
     <Word from="follé" to="(fo-lle)" />
