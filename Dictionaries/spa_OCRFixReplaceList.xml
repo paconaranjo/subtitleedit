@@ -905,5 +905,7 @@
     <!--  Miscelánea  -->
     <RegEx find="(\b[Cc]erca|\b[Ee]ncima|\b[Dd]ebajo|\b[Dd]etrás|\b[Dd]elante)(\s)mío" replaceWith="$1 de mí" />
     <RegEx find="(\b[Cc]erca|\b[Ee]ncima|\b[Dd]ebajo|\b[Dd]etrás|\b[Dd]elante)(\s)tuyo" replaceWith="$1 de ti" />
+    <!--  Repeticiones de una palabra más de tres veces  -->
+    <RegEx find="(([a-zá-ú]+)[\.,]\s[A-ZÁ-Úa-zá-ú]){2,}\1" replaceWith="$1$1" />
   </RegularExpressions>
 </ReplaceList>
