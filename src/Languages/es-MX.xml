@@ -75,11 +75,14 @@
   <About>
     <Title>Acerca de Subtitle Edit</Title>
     <AboutText1>Subtitle Edit es Software libre bajo licencia pública GNU.
+
 Usted puede distribuirlo, modificarlo y usarlo libremente.
 
 Código fuente en C# disponible en https://github.com/SubtitleEdit/subtitleedit
 
+
 Visite www.nikse.dk para la última versión.
+
 
 Se agradecen sugerencias.
 
@@ -118,6 +121,7 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <Recalculate>Recalcular</Recalculate>
     <AddSeconds>Añadir segundos</AddSeconds>
     <SetAsPercent>Ajustar duración por porcentaje</SetAsPercent>
+
     <Note>Nota: La duración no puede solapar el tiempo de inicio del texto siguiente</Note>
     <PleaseSelectAValueFromTheDropDownList>Por favor, seleccione un valor de la lista desplegable</PleaseSelectAValueFromTheDropDownList>
     <PleaseChoose> - Por favor, elige uno - </PleaseChoose>
@@ -191,6 +195,7 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
   </ChangeFrameRate>
   <ChangeSpeedInPercent>
     <Title>Ajuste la velocidad en porcentaje</Title>
+
     <Info>Cambiar la velocidad de los subtítulos en porcentaje</Info>
   </ChangeSpeedInPercent>
   <ChooseAudioTrack>
@@ -206,6 +211,13 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <Title>Seleccionar idioma</Title>
     <Language>Idioma</Language>
   </ChooseLanguage>
+  <ColorChooser>
+    <Title>Elegir color</Title>
+    <Red>Rojo</Red>
+    <Green>Verde</Green>
+    <Blue>Azul</Blue>
+    <Alpha>Alfa</Alpha>
+  </ColorChooser>
   <ColumnPaste>
     <Title>Pegar columna</Title>
     <ChooseColumn>Elegir columna</ChooseColumn>
@@ -252,11 +264,13 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <FadeUpTime>Atenuar tiempo de subida</FadeUpTime>
     <FadeDownTime>Atenuar tiempo de bajada</FadeDownTime>
     <ZPosition>Posición-Z</ZPosition>
+
     <ZPositionHelp>Números positivos alejan el texto, números negativos acercan el texto, si la posición-z está en cero entonces es 2D</ZPositionHelp>
     <ChooseColor>Elige el color...</ChooseColor>
     <Generate>Generar</Generate>
   </DCinemaProperties>
   <DurationsBridgeGaps>
+
     <Title>Puentear pequeños intervalos en duraciones</Title>
     <GapsBridgedX>Número de pequeños intervalos puenteados: {0}</GapsBridgedX>
     <GapToNext>Intervalo al siguiente</GapToNext>
@@ -348,6 +362,7 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <SubtitleExportedInCustomFormatToX>Subtítulo exportado en formato personalizado a: {0}</SubtitleExportedInCustomFormatToX>
   </ExportCustomText>
   <ExportCustomTextFormat>
+
     <Title>Plantilla de formato de texto personalizado</Title>
     <Template>Plantilla</Template>
     <Header>Encabezado</Header>
@@ -365,6 +380,10 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <FontColor>Color de fuente</FontColor>
     <BorderColor>Color de borde</BorderColor>
     <BorderWidth>Ancho de borde</BorderWidth>
+    <BorderStyle>Estilo de borde</BorderStyle>
+    <BorderStyleOneBox>Una casilla</BorderStyleOneBox>
+    <BorderStyleBoxForEachLine>Casilla para cada línea</BorderStyleBoxForEachLine>
+    <BorderStyleNormalWidthX>Normal, ancho={0}</BorderStyleNormalWidthX>
     <ShadowColor>Color de sombra</ShadowColor>
     <ShadowWidth>Ancho de sombra</ShadowWidth>
     <Transparency>Transparencia</Transparency>
@@ -390,6 +409,8 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <SomeLinesWereTooLongX>Algunas líneas son muy largas:
 {0}</SomeLinesWereTooLongX>
     <LineHeight>Alto de línea</LineHeight>
+    <BoxSingleLine>Casilla - una sola línea</BoxSingleLine>
+    <BoxMultiLine>Casilla - multilínea</BoxMultiLine>
   </ExportPngXml>
   <ExportText>
     <Title>Exportar texto</Title>
@@ -462,6 +483,7 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <RemoveLineBreaksAll>Eliminar saltos de línea en textos cortos (todos excepto diálogos)</RemoveLineBreaksAll>
     <FixUppercaseIInsindeLowercaseWords>Corregir 'i' mayúscula en palabras en minúscula (error de ocr)</FixUppercaseIInsindeLowercaseWords>
     <FixDoubleApostrophes>Sustituir doble comilla simple ('') por comillas dobles (")</FixDoubleApostrophes>
+
     <AddPeriods>Añadir punto al final de la línea cuando la siguiente comience con mayúscula</AddPeriods>
     <StartWithUppercaseLetterAfterParagraph>Comenzar párrafo con mayúscula</StartWithUppercaseLetterAfterParagraph>
     <StartWithUppercaseLetterAfterPeriodInsideParagraph>Comenzar con mayúscula después de punto dentro del párrafo</StartWithUppercaseLetterAfterPeriodInsideParagraph>
@@ -490,6 +512,7 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <NothingToFix>Nada que corregir :)</NothingToFix>
     <FixesFoundX>Correcciones encontradas: {0}</FixesFoundX>
     <XFixesApplied>Correcciones aplicadas: {0}</XFixesApplied>
+
     <NothingToFixBut>Nada que corregir, pero algunas cosas por mejorar - ver detalles en archivo de registro</NothingToFixBut>
     <FixLowercaseIToUppercaseICheckedButCurrentLanguageIsNotEnglish>«Fijar "i" minúscula sola a "I" mayúscula (Inglés)» está marcado pero el subtítulo cargado no parece estar en inglés.</FixLowercaseIToUppercaseICheckedButCurrentLanguageIsNotEnglish>
     <Continue>Continuar</Continue>
@@ -733,6 +756,7 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
         <ChangeSpeedInPercent>Cambiar velocidad (porcentaje)...</ChangeSpeedInPercent>
         <MergeShortLines>Combinar líneas cortas...</MergeShortLines>
         <MergeDuplicateText>Fusionar líneas con el mismo texto...</MergeDuplicateText>
+		<MergeSameTimeCodes>Fusionar líneas con los mismos códigos de tiempo...</MergeSameTimeCodes>
         <SplitLongLines>Dividir líneas largas...</SplitLongLines>
         <MinimumDisplayTimeBetweenParagraphs>Duración mínima entre párrafos...</MinimumDisplayTimeBetweenParagraphs>
         <SortBy>Ordenar por</SortBy>
@@ -966,7 +990,8 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <SavedOriginalSubtitleX>Subtítulo original guardado {0}</SavedOriginalSubtitleX>
     <FileOnDiskModified>Modificado archivo en disco</FileOnDiskModified>
     <OverwriteModifiedFile>¿Sobreescribir archivo {0} modificado a {1} {2}{3} con archivo actual cargado del disco a {4} {5}?</OverwriteModifiedFile>
-    <UnableToSaveSubtitleX>Imposible guardar archivo de subtítulo {0}</UnableToSaveSubtitleX>
+    <UnableToSaveSubtitleX>Imposible guardar archivo de subtítulo {0}
+¡El subtítulo parece estar vacío - intentar volver a guardarlo si estás trabajando con un subtítulo válido!</UnableToSaveSubtitleX>
     <BeforeNew>Anterior nuevo</BeforeNew>
     <New>Nuevo</New>
     <BeforeConvertingToX>Convirtiendo anterior a {0}</BeforeConvertingToX>
@@ -977,12 +1002,16 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <OpenVideoFile>Abrir archivo de video...</OpenVideoFile>
     <NewFrameRateUsedToCalculateTimeCodes>Nueva tasa de cuadros ({0}) usada para calcular inicio/fin del código de tiempos</NewFrameRateUsedToCalculateTimeCodes>
     <NewFrameRateUsedToCalculateFrameNumbers>Nueva tasa de cuadros ({0}) usada para calcular inicio/fin número de cuadro</NewFrameRateUsedToCalculateFrameNumbers>
+
+
     <FindContinue>La búsqueda no ha dado resultados.
 ¿Quiere reintentarlo desde el inicio del documento?</FindContinue>
     <FindContinueTitle>¿Continuar buscando?</FindContinueTitle>
     <ReplaceContinueNotFound>El elemento de búsqueda no fue encontrada.
+
 ¿Te gustaría que empezar desde el principio del documento y continuar la búsqueda y reemplazar?</ReplaceContinueNotFound>
     <ReplaceXContinue>El elemento de búsqueda se sustituyó {0} hora (s).
+
 ¿Te gustaría que empezar desde el principio del documento y continuar la búsqueda y reemplazar?</ReplaceXContinue>
     <ReplaceContinueTitle>¿«Reemplazar»?</ReplaceContinueTitle>
     <SearchingForXFromLineY>La búsqueda de «{0}» de número de línea {1}...</SearchingForXFromLineY>
@@ -1013,6 +1042,8 @@ Email: mailto:nikse.dk@gmail.com</AboutText1>
     <TextingForHearingImpairedRemovedOneLine>Eliminados los mensajes de texto para sordos: Una línea</TextingForHearingImpairedRemovedOneLine>
     <TextingForHearingImpairedRemovedXLines>Texto para sordos eliminado : {0} líneas</TextingForHearingImpairedRemovedXLines>
     <SubtitleSplitted>Subtítulo dividido</SubtitleSplitted>
+
+
     <SubtitleAppendPrompt>Esto añadirá un subtítulo existente, que debería estar sincronizado
 con el archivo de video, al subtítulo actual cargado.
 
@@ -1188,6 +1219,8 @@ con el archivo de video, al subtítulo actual cargado.
     <ImportTimeCodesDifferentNumberOfLinesWarning>El subtítulo con los códigos de tiempo tiene un número diferente de líneas ({0}) que el subtítulo actual ({1}) - ¿continuar de todas formas?</ImportTimeCodesDifferentNumberOfLinesWarning>
     <ParsingTransportStream>Analizando flujo de transporte - por favor espere...</ParsingTransportStream>
     <ErrorLoadIdx>No se pueden editar/leer los archivos idx. Los archivos idx son una parte del par de archivos idx/sub (también llamados VobSub), y SE puede abrir el archivo sub.</ErrorLoadIdx>
+
+
     <ErrorLoadRar>Este archivo parece estar comprimido en rar. SE no puede abrir archivos comprimidos.</ErrorLoadRar>
     <ErrorLoadZip>Este archivo parece estar comprimido en zip. SE no puede abrir archivos comprimidos.</ErrorLoadZip>
   </Main>
@@ -1213,6 +1246,7 @@ con el archivo de video, al subtítulo actual cargado.
     <Kilos>Kilos</Kilos>
   </MeasurementConverter>
   <MergeDoubleLines>
+
     <Title>Fusionar líneas con el mismo texto</Title>
     <MaxMillisecondsBetweenLines>Max. de milisegundos entre líneas</MaxMillisecondsBetweenLines>
     <IncludeIncrementing>Incluir líneas incrementales</IncludeIncrementing>
@@ -1225,6 +1259,13 @@ con el archivo de video, al subtítulo actual cargado.
     <MergedText>Texto combinado</MergedText>
     <OnlyMergeContinuationLines>Combinar solo líneas que continúan</OnlyMergeContinuationLines>
   </MergedShortLines>
+  <MergeTextWithSameTimeCodes>
+    <Title>Fusionar líneas con los mismos códigos de tiempo</Title>
+    <MaxDifferenceMilliseconds>Diferencia máx. en milisegundos</MaxDifferenceMilliseconds>
+    <ReBreakLines>Redividir líneas</ReBreakLines>
+    <NumberOfMergesX>Número de fusiones: {0}</NumberOfMergesX>
+    <MergedText>Texto fusionado</MergedText>
+  </MergeTextWithSameTimeCodes>
   <ModifySelection>
     <Title>Modificar selección</Title>
     <Rule>Regla</Rule>
@@ -1269,17 +1310,22 @@ con el archivo de video, al subtítulo actual cargado.
   </NetworkChat>
   <NetworkJoin>
     <Title>Unirse a una sesión de red</Title>
+
+
     <Information>Unirse a una sesión existente con múltiples usuarios que
 puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <Join>Unirse</Join>
   </NetworkJoin>
   <NetworkLogAndInfo>
+
     <Title>Información y registro de la sesión de red</Title>
     <Log>Registro:</Log>
   </NetworkLogAndInfo>
   <NetworkStart>
     <Title>Iniciar sesión de red</Title>
     <ConnectionTo>Conectando a {0}...</ConnectionTo>
+
+
     <Information>Comenzar una nueva sesión en la que varias personas
 puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <Start>Inicio</Start>
@@ -1327,6 +1373,7 @@ puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <NotInCharacterGroup>No esté en el grupo de caracteres ([^prueba])</NotInCharacterGroup>
   </RegularExpressionContextMenu>
   <RemoveTextFromHearImpaired>
+
     <Title>Eliminar texto para sordos</Title>
     <RemoveTextConditions>Eliminar las condiciones de texto</RemoveTextConditions>
     <RemoveTextBetween>Eliminar texto entre</RemoveTextBetween>
@@ -1372,6 +1419,7 @@ puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <MaxVolume>El volumen debe estar por debajo de</MaxVolume>
   </SeekSilence>
   <SetMinimumDisplayTimeBetweenParagraphs>
+
     <Title>Establecer tiempo mínimo de visualización entre párrafos</Title>
     <PreviewLinesModifiedX>Vista previa - párrafos modificados: {0}</PreviewLinesModifiedX>
     <ShowOnlyModifiedLines>Mostrar sólo las líneas modificadas</ShowOnlyModifiedLines>
@@ -1555,6 +1603,7 @@ puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <GoToPrevious>Ir a la línea anterior</GoToPrevious>
     <GoToCurrentSubtitleStart>Ir al inicio de la línea actual</GoToCurrentSubtitleStart>
     <GoToCurrentSubtitleEnd>Ir al final de la línea actual</GoToCurrentSubtitleEnd>
+
     <ToggleFocus>Alternar el enfoque entre la vista de lista y cuadro de texto del subtítulo</ToggleFocus>
     <ToggleDialogueDashes>Cambiar guiones del diálogo</ToggleDialogueDashes>
     <Alignment>Alineación (líneas seleccionadas)</Alignment>
@@ -1618,6 +1667,7 @@ puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <UseDoNotBreakAfterList>Utilizar «no saltar después de la lista» (para salto automático)</UseDoNotBreakAfterList>
   </Settings>
   <ShowEarlierLater>
+
     <Title>Mostrar líneas seleccionadas antes/después</Title>
     <TitleAll>Mostrar todas las líneas antes/después</TitleAll>
     <ShowEarlier>Mostrar antes</ShowEarlier>
@@ -1807,14 +1857,17 @@ puedan editar el mismo archivo de subtítulo (colaboración)</Information>
   <PointSync>
     <Title>Sincronización puntual</Title>
     <TitleViaOtherSubtitle>Sincronización puntual desde otro subtítulo</TitleViaOtherSubtitle>
+
     <SyncHelp>Establecer al menos dos puntos para la sincronización en bruto</SyncHelp>
     <SetSyncPoint>Establ. punto de sinc.</SetSyncPoint>
     <RemoveSyncPoint>Eliminar punto de sinc.</RemoveSyncPoint>
     <SyncPointsX>Puntos de sincronización: {0}</SyncPointsX>
+
     <Info>Un punto de sincronización ajusta la posición, dos o más puntos ajustan posición y velocidad.</Info>
     <ApplySync>Aplicar</ApplySync>
   </PointSync>
   <TransportStreamSubtitleChooser>
+
     <Title>Selector del flujo de transporte de los subtítulos - {0}</Title>
     <PidLine>Identificador del Paquete de Transporte (PID) = {0}, número de subtítulos = {1}</PidLine>
     <SubLine>{0}:  {1} --&gt; {2},  {3} imagen(es)</SubLine>
@@ -1834,6 +1887,7 @@ puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <FindText>Buscar texto</FindText>
     <GoToSubPosition>Ir a pos. subt.</GoToSubPosition>
     <KeepChangesTitle>¿Mantener los cambios?</KeepChangesTitle>
+
     <KeepChangesMessage>Se han hecho cambios en los subtítulos con sincronización visual.
 
 ¿Mantener los cambios?</KeepChangesMessage>
@@ -1842,6 +1896,7 @@ puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <Tip>Consejo: Use las teclas &lt;ctrl+flecha izquierda/derecha&gt; para mover 100 ms atrás/adelante</Tip>
   </VisualSync>
   <VobSubEditCharacters>
+
     <Title>Editar imagen comparando la base de datos</Title>
     <ChooseCharacter>Elija caracter (es)</ChooseCharacter>
     <ImageCompareFiles>Comparar archivo de imagen</ImageCompareFiles>
@@ -1925,12 +1980,14 @@ puedan editar el mismo archivo de subtítulo (colaboración)</Information>
     <EditLastX>Editar el último: {0}</EditLastX>
   </VobSubOcrCharacter>
   <VobSubOcrCharacterInspect>
+
     <Title>Inspeccionar coincidencias para la imagen actual</Title>
     <InspectItems>Revisar elementos</InspectItems>
     <AddBetterMatch>Añadir la mejor coincidencia</AddBetterMatch>
   </VobSubOcrCharacterInspect>
   <VobSubOcrNewFolder>
     <Title>Nueva carpeta</Title>
+
     <Message>Nombre de la nueva carpeta de base de datos de caracteres</Message>
   </VobSubOcrNewFolder>
   <WaveForm>
